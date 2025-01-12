@@ -15,7 +15,7 @@
     "@emotion/styled": "^11.11.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.13.5",
+    "@mui/material": "^6.0.0",
     "@react-google-maps/api": "^2.18.1",
     "graphql": "^16.6.0",
     "jotai": "^2.2.0",
