@@ -6,13 +6,13 @@ edition = "2021"
 [dependencies]
 perthtransport = { path = "../perthtransport-lib" }
 
-config = "0.14.1"
-redis = { version = "0.27.6", features = ["tokio-comp", "aio"] }
+config = "0.15.0"
+redis = { version = "0.28.0", features = ["tokio-comp", "aio"] }
 tokio = { version = "1.42.0", features = ["rt", "macros", "rt-multi-thread"] }
 anyhow = "1.0.94"
 serde = "1.0.215"
 futures-util = "0.3.31"
-axum = { version = "0.7.9", features = ["ws", "tracing", "tokio"] }
+axum = { version = "0.8.0", features = ["ws", "tracing", "tokio"] }
 tower-http = { version = "0.6.2", features = ["trace", "cors"] }
 tower = { version = "0.5.1", features = ["limit"] }
 serde_json = "1.0.133"
